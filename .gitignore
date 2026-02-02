@@ -1,0 +1,69 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Data (not included in repo)
+data/
+
+# Model weights (too large)
+outputs/models/
+*.pt
+*.bin
+*.safetensors
+
+# Training logs
+outputs/*.log
+
+# HTML visualizations
+outputs/*.html
+
+# Predictions (submission files)
+outputs/predictions/
+
+# SSL certificates (environment-specific)
+*.crt
+
+# PDF papers
+*.pdf
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+wandb/
+runs/
+
+# Temporary
+*.tmp
+*.temp
+*.html
+*.pptx
+
+paper.md
+paper_paragraph.md
+
+# Secrets
+.env
+

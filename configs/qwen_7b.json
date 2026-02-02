@@ -1,0 +1,18 @@
+{
+    "model_name": "Qwen/Qwen2.5-7B-Instruct",
+    "max_length": 512,
+    "data_dir": "data",
+    "output_dir": "outputs/models",
+    "epochs": 3,
+    "batch_size": 4,
+    "learning_rate": 2e-4,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "gradient_accumulation_steps": 8,
+    "eval_epochs": 1,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "use_4bit": false,
+    "seed": 42
+}

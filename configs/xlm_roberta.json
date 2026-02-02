@@ -1,0 +1,15 @@
+{
+    "model_name": "xlm-roberta-large",
+    "max_length": 256,
+    "data_dir": "data",
+    "output_dir": "outputs/models",
+    "epochs": 8,
+    "batch_size": 16,
+    "learning_rate": 1e-5,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "gradient_accumulation_steps": 2,
+    "loss_type": "focal",
+    "focal_gamma": 2.0,
+    "seed": 42
+}

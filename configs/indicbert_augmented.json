@@ -1,0 +1,17 @@
+{
+    "model_name": "ai4bharat/IndicBERT-v3-1B",
+    "max_length": 256,
+    "data_dir": "data",
+    "output_dir": "outputs/models",
+    "epochs": 50,
+    "batch_size": 8,
+    "learning_rate": 1e-5,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "gradient_accumulation_steps": 4,
+    "loss_type": "focal",
+    "focal_gamma": 3.0,
+    "early_stopping_patience": 10,
+    "seed": 42,
+    "use_augmented": true
+}
