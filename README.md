@@ -17,16 +17,6 @@ This repository contains our code for Tamil political multiclass sentiment analy
 
 1. **LLM augmentation provides 67% improvement:** 21.4% → 35.79% F1
 2. **Smaller models benefit more:** MuRIL outperforms larger IndicBERT-1B after augmentation
-3. **Would rank 3rd-4th place:** Compared to last year's competition results
-
-### Comparison with Last Year
-
-| Rank | Team | F1-Score |
-|------|------|----------|
-| 1st | Synapse | 37.7% |
-| 2nd | KCRL | 37.1% |
-| 3rd | byteSizedLLM | 35.0% |
-| **Ours** | **CHMOD_777** | **35.79%** |
 
 ## Setup
 
@@ -154,29 +144,6 @@ We use Gemini 2.5 Flash for LLM-based paraphrasing:
 | Weighted sampler | Yes |
 | Epochs | 50 (early stopping) |
 | Patience | 10 epochs |
-
-## Hardware
-
-Experiments conducted on:
-- 2x NVIDIA H100 NVL 95GB GPUs
-- BF16 mixed precision
-
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@inproceedings{chmod777-political-dravidianlt2026,
-    title = {CHMOD_777 at DravidianLangTech@ACL 2026: LLM-Augmented Data for Tamil Political Multiclass Sentiment Analysis},
-    author = {Team CHMOD_777},
-    booktitle = {Proceedings of the DravidianLangTech Workshop at ACL 2026},
-    year = {2026}
-}
-```
-
-## License
-
-MIT License
 
 ## Team
 
