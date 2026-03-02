@@ -53,7 +53,8 @@ political_multiclass_sentiment_analysis/
 ├── outputs/
 │   ├── models/               # Trained models
 │   └── predictions/          # Submission files
-├── standalone_gemini_augment_v3.py  # GCP Vertex AI augmentation script
+├── scripts/
+│   └── standalone_gemini_augment_v3.py  # GCP Vertex AI augmentation script
 ├── requirements.txt
 ├── run.sh                    # Convenience script
 ├── paper.md                  # Paper draft
@@ -67,7 +68,7 @@ political_multiclass_sentiment_analysis/
 Using Gemini on GCP Vertex AI:
 ```bash
 # Upload to Vertex AI Workbench and run:
-python standalone_gemini_augment_v3.py
+python scripts/standalone_gemini_augment_v3.py
 ```
 
 ### 2. Training
