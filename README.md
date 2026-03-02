@@ -149,4 +149,5 @@ We use Gemini 2.5 Flash for LLM-based paraphrasing:
 | Epochs | 50 (early stopping) |
 | Patience | 10 epochs |
 
+---
 <p align="center">Author: Arunaggiri Pandian Karunanidhi</p>
