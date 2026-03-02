@@ -112,18 +112,6 @@ python src/inference.py \
 ./run.sh analyze-model outputs/models/muril_augmented
 ```
 
-## Sentiment Classes
-
-The task involves classifying political sentiments into seven distinct categories:
-
-1.  **Substantiated (ஆதாரப்பூர்வமானது)**: Tweets providing information supported by evidence, links, or factual claims.
-2.  **Sarcastic (கிண்டல்)**: Tweets using sarcasm, mockery, or irony to convey criticism.
-3.  **Opinionated (தனிப்பட்டக்கருத்து)**: Tweets expressing strong personal views or subjective interpretations.
-4.  **Positive (நேர்மறை)**: Tweets showing approval or appreciation toward political entities without personal bias.
-5.  **Negative (எதிர்மறை)**: Tweets expressing criticism or highlighting failures based on known facts.
-6.  **Neutral (நடுநிலை)**: Factual updates or general political information without bias or emotion.
-7.  **None of the above (எதுவும்இல்லை)**: Tweets unrelated to politics or not fitting other categories.
-
 ## Data Augmentation
 
 We use Gemini 2.5 Flash for LLM-based paraphrasing:
