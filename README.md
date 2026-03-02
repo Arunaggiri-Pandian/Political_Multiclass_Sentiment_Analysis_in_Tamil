@@ -1,6 +1,10 @@
 # Tamil Political Multiclass Sentiment Analysis - CHMOD_777
 
 **DravidianLangTech@ACL 2026 Shared Task**
+- **Competition:** [Codabench #11326](https://www.codabench.org/competitions/11326/)
+- **Team:** **CHMOD_777**
+  - Arunaggiri Pandian Karunanidhi (Micron Technology)
+  - Prabalakshmi Arumugam (Boise State University)
 
 This repository contains our code for Tamil political multiclass sentiment analysis.
 
@@ -144,7 +148,3 @@ We use Gemini 2.5 Flash for LLM-based paraphrasing:
 | Weighted sampler | Yes |
 | Epochs | 50 (early stopping) |
 | Patience | 10 epochs |
-
-## Team
-
-**CHMOD_777**
