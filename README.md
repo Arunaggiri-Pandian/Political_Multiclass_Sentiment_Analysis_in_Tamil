@@ -1,7 +1,7 @@
 # Tamil Political Multiclass Sentiment Analysis - CHMOD_777
 
 **DravidianLangTech@ACL 2026 Shared Task**
-- **Competition:** [Codabench #11326](https://www.codabench.org/competitions/11326/)
+- **Competition:** [Codabench #11327](https://www.codabench.org/competitions/11327/)
 - **Team:** **CHMOD_777**
   - Arunaggiri Pandian Karunanidhi (Micron Technology)
   - Prabalakshmi Arumugam (Boise State University)
